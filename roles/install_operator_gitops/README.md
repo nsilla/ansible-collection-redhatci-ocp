@@ -17,6 +17,7 @@ metallb: True or false. Set it to true to modify the Provisioning resource to al
 database_storage_request: i.e 20Gi for the AgentService
 filesystem_storage_request: i.e 20Gi for AgentService
 image_storage_request: i.e 100Gi for the AgentService
+iog_configure_only: boolean, default "false". Set it to "true" to skip the installation tasks and ran only the configuration ones.
 
 Dependencies
 ------------
